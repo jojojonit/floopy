@@ -32,7 +32,7 @@ import {
   }
   
   export function setHanaLose() {
-    hanaElem.src = "imgs/hana-stationary.png"
+    hanaElem.src = "public/hana-stationary.png"
   }
   
   function handleJump(delta) {

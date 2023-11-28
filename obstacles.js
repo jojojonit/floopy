@@ -41,8 +41,8 @@ function createObstacle() {
     const obstacleTop = document.createElement("img")
     obstacle.dataset.obstacle = true
     obstacleTop.dataset.obstacleTop = true
-    obstacle.src = "imgs/carrot.png"
-    obstacleTop.src = "imgs/carrot.png"
+    obstacle.src = "public/carrot.png"
+    obstacleTop.src = "public/carrot.png"
     obstacle.classList.add("obstacle")
     obstacleTop.classList.add("obstacleTop")
     setCustomProperty(obstacle, "--left", 100)
