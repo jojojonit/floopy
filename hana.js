@@ -10,8 +10,6 @@ import {
 
   
   let isJumping
-  let dinoFrame
-  let currentFrameTime
   let yVelocity
 
   export function setupHana() {
@@ -32,7 +30,7 @@ import {
   }
   
   export function setHanaLose() {
-    hanaElem.src = "public/hana-stationary.png"
+    hanaElem.src = "./public/hana-stationary.png"
   }
   
   function handleJump(delta) {
